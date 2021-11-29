@@ -1,0 +1,158 @@
+﻿input.form-control {
+    border-right: 1px solid #ced4da !important;
+}
+
+ul.ul-notes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    margin-top: 22px;
+    margin-bottom: 42px;
+}
+
+span.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0;
+    flex-shrink: 1;
+    display: inline-block;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #c3c3c3; /*Put your image url*/
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /*Value from 0.0 to 1.0*/
+}
+
+body {
+    /*background: url('images/bg-ms2.jpg');*/
+    background: url('https://source.unsplash.com/collection/1065976/1920x1080');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.validation-summary-errors ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.alert {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ul.ul-notes li {
+    position: relative;
+    height: 50px;
+}
+
+    ul.ul-notes li span {
+        position: absolute;
+    }
+
+@media only screen and (min-width: 768px) {
+    .login-box, .register-box {
+        width: 900px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .login-form-1 {
+        border-top-right-radius: 31px;
+        border-bottom-right-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+    }
+
+    .login-form-2 {
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 31px !important;
+    }
+}
+/*----------------------*/
+.login-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 7px solid #fff;
+    border-radius: 40px;
+}
+
+.login-form-1 {
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    background: rgb(59,118,226);
+    background: linear-gradient(222deg, rgba(59,118,226,1) 0%, rgba(53,159,214,1) 62%, rgba(8,63,125,1) 100%);
+    border-top-left-radius: 31px;
+    border-bottom-left-radius: 31px;
+}
+
+    .login-form-1 h3 {
+        text-align: center;
+        color: #fff;
+    }
+
+.login-form-2 {
+    padding: 25px;
+    background: #fff;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    border-top-right-radius: 31px;
+    border-bottom-right-radius: 31px;
+}
+
+    .login-form-2 h3 {
+        text-align: center;
+        color: #222;
+    }
+
+.login-container form {
+    padding: 10%;
+}
+
+.btnSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form-1 .btnSubmit {
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+
+.login-form-2 .btnSubmit {
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+    border-radius: 1rem;
+}
+
+.login-form-2 .ForgetPwd {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-form-1 .ForgetPwd {
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/*-----Layout CSS------*/
+
+.brand-link {
+    background-color: #fff !important;
+}
